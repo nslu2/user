@@ -1,0 +1,32 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:541: checking for gcc
+configure:654: checking whether the C compiler (gcc  ) works
+configure:670: gcc -o conftest    conftest.c  1>&5
+configure:696: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:701: checking whether we are using GNU C
+configure:710: gcc -E conftest.c
+configure:729: checking whether gcc accepts -g
+configure:761: checking how to run the C preprocessor
+configure:782: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:841: checking for ANSI C header files
+configure:854: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:921: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:975: checking for a BSD compatible install
+configure:1038: checking for com_err in -lcom_err
+configure:1057: gcc -o conftest -g -O2   conftest.c -lcom_err   1>&5
+configure:1085: checking for ext2fs_initialize in -lext2fs
+configure:1104: gcc -o conftest -g -O2   conftest.c -lext2fs  -lcom_err  1>&5
+configure:1141: checking for ext2fs/ext2fs.h
+configure:1151: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1193: checking for main in -lnsl
+configure:1208: gcc -o conftest -g -O2   conftest.c -lnsl   1>&5
+configure:1236: checking for main in -lwrap
+configure:1251: gcc -o conftest -g -O2   conftest.c -lwrap  -lnsl  1>&5
+configure:1282: checking for tcpd.h
+configure:1292: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1322: checking for working const
+configure:1376: gcc -c -g -O2  conftest.c 1>&5
+configure:1397: checking for inline
+configure:1411: gcc -c -g -O2  conftest.c 1>&5
